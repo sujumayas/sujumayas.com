@@ -6,5 +6,19 @@
 
 module.exports = {
   siteName: 'Esen Espinosa',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+        route: '/blog/:slug',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    }
+  ]
 }
