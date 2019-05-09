@@ -4,16 +4,29 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
     
-    <h1>Hello, world!</h1>
+    <h1>Esen Espinosa Cook</h1>
    
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <p>Hi, I am currently testing gridsome + vue.js + graphql so you'll need to wait for a better website.</p>
 
     <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/sujumayas" target="_blank" rel="noopener">Github</a>
+      <a href="https://gitlab.com/sujumayas" target="_blank" rel="noopener">GitLab</a>
+      
+      
     </p>
+
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <hr>
+    <h2>If you are bored... jump into one of my projects: </h2>
+    <ul>
+      <li><a href="http://asterion.online/inspiration/life-in-space" target="_blank" rel="noopener">life-in-space</a></li>
+    </ul>
 
   </Layout>
 </template>
@@ -21,7 +34,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Sujumayas'
   }
 }
 </script>
@@ -29,5 +42,9 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+h2 {
+  font-size:15px;
+  margin: 0;
 }
 </style>
