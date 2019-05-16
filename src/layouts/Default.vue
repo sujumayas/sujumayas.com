@@ -13,9 +13,9 @@
       </div>
     </header>
     <div class="main-wrapper">
-      <div class="container">
+      <div class="container no-sidebar">
         <slot/>
-        <aside class="main-aside">
+        <aside class="main-aside hidden">
           <h3>Algunos links de prueba para el sidebar</h3>
           <ul>
             <li><a href="#">Links de Prueba</a></li>
@@ -78,7 +78,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 25%;
 }
+
+.container.no-sidebar{
+  grid-template-columns: 1fr;
+}
+
 img {
   max-width:100%;
+}
+.hidden{
+  display:none;
 }
 </style>
