@@ -7,9 +7,6 @@
       <h1>Esen Espinosa Cook</h1>
     
       <p>Hi, I am currently testing gridsome + vue.js + graphql so you'll need to wait for a better website.</p>
-      <p>
-        The school for poetic computation is organized around exploring the creative and expressive nature of computational approaches to art and design. The school approaches writing code like creative writing — focusing on the mechanics of programming, the demystification of tools, and hacking the conventions of art-making with computation.
-      </p>
       <p class="home-links">
         <a href="https://github.com/sujumayas" target="_blank" rel="noopener">Github</a>
         <a href="https://gitlab.com/sujumayas" target="_blank" rel="noopener">GitLab</a>
