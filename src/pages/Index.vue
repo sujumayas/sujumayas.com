@@ -44,26 +44,6 @@
               </a>
           </div>
         </div>
-        <div class="portfolio-row">
-          <div class="portfolio-col">
-            <a href="http://asterion.online/inspiration/life-in-space" target="_blank" rel="noopener">
-              <img src="https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixlib=rb-0.3.5&s=873f1f91c3dd02ebc97aee248ff6c31c&auto=format&fit=crop&w=1500&q=80" alt="">
-              <p>life-in-space</p>
-            </a>
-          </div>
-          <div class="portfolio-col">
-            <a href="http://asterion.online/inspiration/life-in-space" target="_blank" rel="noopener">
-              <img src="https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixlib=rb-0.3.5&s=873f1f91c3dd02ebc97aee248ff6c31c&auto=format&fit=crop&w=1500&q=80" alt="">
-              <p>life-in-space</p>
-            </a>
-          </div>
-          <div class="portfolio-col">
-              <a href="http://asterion.online/inspiration/life-in-space" target="_blank" rel="noopener">
-                <img src="https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixlib=rb-0.3.5&s=873f1f91c3dd02ebc97aee248ff6c31c&auto=format&fit=crop&w=1500&q=80" alt="">
-                <p>life-in-space</p>
-              </a>
-          </div>
-        </div>
       </div>
   </div>
   </Layout>
