@@ -2,23 +2,28 @@
   <Layout>
     <div class="inner-container">
       <h1>About me</h1>
-      <p>
-        The school for poetic computation is organized around exploring the creative and expressive nature of computational approaches to art and design. The school approaches writing code like creative writing — focusing on the mechanics of programming, the demystification of tools, and hacking the conventions of art-making with computation.</p>
+      <p>Let me tell you a little about myself. </p>
 
-        <p>We value the craft necessary to realize an idea, recognizing that every writer needs space and time to hone their trade. Our school aims to provide a safe haven for you to get acquainted with the craft of coding at your own pace, make it your own, and investigate the space between creative process and craft. This takes conversations with colleagues and the right push at the right time.</p>
+      <p>I am a philosopher that changed tracks 6 years ago to be a programmer. I think it was one of the best decisions in my life because I really love what I do now. I have been doing web development in a professional environment for the last 5 years and a half after that. </p>
 
-        <p>The school aims to be more than a technical bootcamp. It is an opportunity to work intensively with a small group of students, faculty, and artists to explore questions about the poetics of computation. For us, computation is poetic when technology is used for critical thinking and aesthetic inquiry – a space where logic meets electricity (hardware), math meets language (software) and analytical thinking meets creative experimentation.</p>
+      <p>Currently,  I see myself as a senior developer in JavaScript, altho I have also done a lot of relevant work for "other parts" of the software development industry: project management, project estimation, information architecture, some UI design, some UX research, client management, QA, Teaching, Customer Support, etc. (the perks of starting your own company)  </p> 
 
-        <p>This is also a school for teaching. Every student who comes here will be asked to share their expertise with their classmates in the form of workshops and outreach.</p>
+      <p>I have worked more than 4 years developing Wordpress sites, coding projects that go from informative landing pages to big-scope e-commerce sites with vue.js spa infrastructure on the views side.</p>
 
-        <p>The goal of the school is to promote completely strange, whimsical, and beautiful work – not the sorts of things useful for building a portfolio for finding a job, but the sort of things that will surprise and delight people and help you to keep creating without a job. However, employers tell us they appreciate this kind of work as well.</p>
-
-        <p>This is not a program to get a degree, there are large programs for that. This is not a program to go for vocational skills, there are programs for that. This is a program for self initiated learners who want to explore new possibilities. This is a program for thinkers in search of a community to realize greater dreams.</p>
+      <p>All this time, I have been doing more work in the frontend than the backend, specializing in JavaScript and Vuejs in the last 2 years. 
+      This is a list of the coding skills:
+      </p>
+      <ul>
+        <li>JavaScript (Advanced knowledge of ES6 and Frameworks like Vuejs)</li>
+        <li>Wordpress</li>
+        <li>PHP (Laravel), Python (Flask), Node (Express, Sails)... some serverside knowledge</li>
+        <li>HTML&CSS (SASS, BEM, ITCSS, npm scripts) I have done 2-3 years of teaching practice of this.</li>
+      </ul>
         <p>
         <pre>
           describe("esen-espinosa", () => {
               allowedDescriptors = ['philosopher', 'sistemic therapyst', 'gamer', 'husband', 'programmer']
-              desiredDescriptors = ['medieval warrior', 'spy specialist', 'private investigator', 'AI robot']
+              desiredDescriptors = ['medieval warrior', 'secret agent', 'private investigator', 'AI robot']
               notAllowedDescriptors = ['walking dead', 'yasuo main', 'pc technician', 'dota player']
 
               allowedDescriptors.forEach((descriptor)=>{
