@@ -39,7 +39,6 @@ body {
   padding: 0;
   line-height: 1.5;
 }
-
 .layout {
   margin: 0 auto;
 }
