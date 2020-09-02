@@ -63,6 +63,7 @@ let app = new Vue({
                 })
             })
             topic.isSelected = true;
+            console.log("You have chosen: " + topic.title)
         }
     }
 })
