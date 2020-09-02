@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sujumayas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
-        {{ message }}
+        <div class="container">
+            <h1 class="topics-title">Choose your topic</h1>
+            <div class="topics-container">
+                <template v-for="topicGroup, key in topics">
+                    <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected, key}" class="topic" v-for="topic in topicGroup">
+                        <span>{{topic.title}}</span>
+                    </div>
+                </template>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script type="module" src="app.js"></script>
