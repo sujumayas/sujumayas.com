@@ -68,8 +68,11 @@ Kin's love and hate, in spaces between.`},
         }
     },
     methods: {
-        toggleModalVisibility(){
-            this.modal = !this.modal;
+        activateModal() { 
+            this.modal = true;
+        },
+        deActivateModal() { 
+            this.modal = false;
         },
         chooseTopic(topic){
             Object.entries(this.topics).forEach(function(topicGroup){

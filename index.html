@@ -14,8 +14,8 @@
                 <template v-for="topicGroup, key in topics">
                     <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected, key}" class="topic" v-for="topic in topicGroup">
                         <span>{{topic.title}}</span>
-                        <div @click="toggleModalVisibility()" :class="{'visible':modal.isVisible}" class="poem">
-                            <span>X</span>
+                        <div @click="activateModal()" :class="{'visible':modal.isVisible}" class="poem modal">
+                            <span @click="deActivateModal()">X</span>
                             <pre>
                                 {{topic.poem}}
                             </pre>
