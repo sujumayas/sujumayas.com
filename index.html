@@ -14,8 +14,17 @@
                 <template v-for="topicGroup, key in topics">
                     <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected, key}" class="topic" v-for="topic in topicGroup">
                         <span>{{topic.title}}</span>
+                        <div @click="toggleModalVisibility" :class="{'visible':modal.isVisible}" class="poem">
+                            <span>X</span>
+                            <pre>
+                                {{topic.poem}}
+                            </pre>
+                        </div>
                     </div>
                 </template>
+            </div>
+            <div>
+                
             </div>
         </div>
     </div>

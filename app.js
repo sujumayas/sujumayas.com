@@ -4,7 +4,7 @@ let app = new Vue({
         message: 'Welcome to what will be our game jam website. ',
         topics: {
             happy: [
-                {title:'rescue',isSelected:false},
+                {title: 'rescue', isSelected: false},
                 {title:'lost loved ones recovered',isSelected:false},
                 {title:'a miracle of god',isSelected:false}
             ],
@@ -30,7 +30,19 @@ let app = new Vue({
                 {title:'entreaty',isSelected:false},
                 {title:'loves obstacles',isSelected:false},
                 {title:'rivalry between unequals',isSelected:false},
-                {title:'rivalry between kinsmen',isSelected:false},
+                {
+                    title: 'rivalry between kinsmen', isSelected: false, poem: `In shadows deep, where kin lines blur,
+Two hearts, entwined, in silent war.
+Blood shared, yet paths diverge wide,
+In silent woods, their secrets hide.
+
+Brother to brother, root to vine,
+Their rivalry, like aged wine.
+In the labyrinth of blood ties,
+Truth whispers, where the echo lies.
+
+In the dance of time, unseen,
+Kin's love and hate, in spaces between.`},
                 {title:'a mistery',isSelected:true}
             ],
             disastrous_with_intent: [
