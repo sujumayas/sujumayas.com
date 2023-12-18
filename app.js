@@ -1,7 +1,9 @@
 let app = new Vue({
     el: '#app',
     data: {
-        modal: false,
+        modal:{
+            isActive:false;
+        },
         message: 'Welcome to what will be our game jam website. ',
         topics: {
             happy: [
@@ -69,10 +71,12 @@ Kin's love and hate, in spaces between.`},
     },
     methods: {
         activateModal() { 
-            this.modal = true;
+            this.modal.isActive = true;
+            console.log("modal activated")
         },
         deActivateModal() { 
-            this.modal = false;
+            this.modal.isActive = false;
+            console.log("modal deactivated")
         },
         chooseTopic(topic){
             Object.entries(this.topics).forEach(function(topicGroup){

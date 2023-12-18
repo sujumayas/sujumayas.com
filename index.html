@@ -12,9 +12,9 @@
             <h1 class="topics-title">Choose your topic</h1>
             <div class="topics-container">
                 <template v-for="topicGroup, key in topics">
-                    <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected, key}" class="topic" v-for="topic in topicGroup">
+                    <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected}" class="topic" v-for="topic in topicGroup">
                         <span>{{topic.title}}</span>
-                        <div :class="{'visible':topic.isSelected, key}" class="poem modal">
+                        <div :class="{'visible':topic.isSelected & modal.isActive}" class="poem modal">
                             <span @click="deActivateModal()">X</span>
                             <pre>
                                 {{topic.poem}}

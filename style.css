@@ -49,7 +49,7 @@ body{
 .modal {
     display: none;
 }
-.modal.visible{
+.modal.selected{
     display: block;
     position: absolute;
     top:50%;
