@@ -2,7 +2,7 @@ let app = new Vue({
     el: '#app',
     data: {
         modal:{
-            isActive:false;
+            isActive:false
         },
         message: 'Welcome to what will be our game jam website. ',
         topics: {
