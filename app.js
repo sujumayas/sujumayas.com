@@ -79,9 +79,9 @@ Kin's love and hate, in spaces between.`},
                 topicGroup[1].map(function(tpc){
                     //console.log(tpc)
                     if(tpc.isSelected) {tpc.isSelected = false }
-                    this.activateModal()
                 })
             })
+            this.activateModal()
             topic.isSelected = true;
             console.log("You have chosen: " + topic.title)
         }
