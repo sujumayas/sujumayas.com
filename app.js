@@ -1,6 +1,7 @@
 let app = new Vue({
     el: '#app',
     data: {
+        modal: false,
         message: 'Welcome to what will be our game jam website. ',
         topics: {
             happy: [
