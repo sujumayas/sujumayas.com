@@ -14,11 +14,11 @@
                 <template v-for="topicGroup, key in topics">
                     <div @click="chooseTopic(topic)" :class="{'selected':topic.isSelected}" class="topic" v-for="topic in topicGroup">
                         <span>{{topic.title}}</span>
-                        <div :class="{'visible':topic.isSelected & modal.isActive}" class="poem modal">
+                        <div :class="{'selected':topic.isSelected & modal.isActive}" class="poem modal">
                             <span @click="deActivateModal()">X</span>
-                            <pre>
+                            <p>
                                 {{topic.poem}}
-                            </pre>
+                            </p>
                         </div>
                     </div>
                 </template>
