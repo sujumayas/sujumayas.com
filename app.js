@@ -401,7 +401,7 @@ Kin's love and hate, in spaces between.`},
                 {
                     title: 'a mistery', isSelected: true, poem:
                         `
-Struggle against god
+A mistery
 
 In twilight's veil, a mystery lies,
 Whispered secrets, silent cries.
