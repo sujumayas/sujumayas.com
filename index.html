@@ -16,7 +16,6 @@
                         <span>{{topic.title}}</span>
                         <div :class="{'selected':topic.isSelected & modal.isActive}" class="poem modal">
                             <span @click.stop="deActivateModal()">X</span>
-                            <image src="/images/a mistery.webp" alt="image" />
                             <pre>
                                 {{topic.poem}}
                             </pre>
